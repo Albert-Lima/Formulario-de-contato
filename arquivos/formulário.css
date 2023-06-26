@@ -55,6 +55,7 @@ h2{
     padding: 5px;
     margin-top: 5px;
     background-color: none;
+    outline: none;
 }
 #enviar{
     display: block;
