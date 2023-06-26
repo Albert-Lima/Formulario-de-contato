@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pot-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulário.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <section>
+        <form action="URL" method="post" id="formulario">
+            <h1>Preencha seus dados</h1>
+            <h2>Nome completo:</h2>
+            <input type="text" id="name" required>
+            <h2>Idade:</h2>
+            <input type="number" min="0" max="150" id="idade" required>
+            <h2>E-mail:</h2>
+            <input type="email" required id="email">
+            <h2>Telefone:</h2>
+            <input type="tel" required placeholder="(DDD)" id="telefone">
+            <input type="submit" value="ENVIAR" id="enviar">
+        </form>
+    </section>
+    <script src="formulário.js"></script>
+</body>
+</html>
