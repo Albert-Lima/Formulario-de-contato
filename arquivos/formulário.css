@@ -100,6 +100,9 @@ button:hover{
     h1{
         font-size: 12pt;
     }
+    body{
+        animation: none;
+    }
 }
 @media (max-width: 300px){
     h1, input, textarea{
