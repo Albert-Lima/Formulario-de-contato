@@ -9,22 +9,20 @@
 <body>
     <section>
         <h1>Preencha seus dados</h1>
-        <form action=""https://api.staticforms.xyz/submit" method="post" id="formulario">
-            <label>Nome:</label>
-            <input type="text" id="name" required>
+        <form action="https://formsubmit.co/albertsousalima@gmail.com" method="post">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" required autocomplete="off" autofocus>
 
-            <label>E-mail:</label>
-            <input type="email" required id="email">
+            <label for="email">E-mail:</label>
+            <input type="email" required id="email" autocomplete="off">
 
-            <label>Telefone:</label>
-            <input type="tel" placeholder="(DDD)" id="telefone">
+            <label for="telefone">Telefone:</label>
+            <input type="tel" placeholder="(DDD)" id="telefone" autocomplete="off">
 
             <textarea name="feedback" cols="30" rows="10" placeholder="Me envie uma mensagem"></textarea>
             
-
-            <button type="submit"></button>
-            <input type="hidden" name="acessKey" value="0f4854a3-dbb4-43ff-ad72-d01ff1e0ed26">
-            <input type="hidden" name="redirectTo" value="https://albert-lima.github.io/Formulario-de-contato/arquivos/index2.html">
+            <button type="submit">Enviar</button>
+            <input type="hidden" name="redirectTo" value="https://albert-lima.github.io/LimaDev-Portifolio/">
         </form>
     </section>
     <script src="arquivos/formulário.js"></script>
