@@ -8,17 +8,22 @@
 </head>
 <body>
     <section>
-        <form action="URL" method="post" id="formulario">
-            <h1>Preencha seus dados</h1>
-            <h2>Nome completo:</h2>
+        <h1>Preencha seus dados</h1>
+        <form action=""https://api.staticforms.xyz/submit" method="post" id="formulario">
+            <label>Nome:</label>
             <input type="text" id="name" required>
-            <h2>Idade:</h2>
-            <input type="number" min="0" max="150" id="idade" required>
-            <h2>E-mail:</h2>
+
+            <label>E-mail:</label>
             <input type="email" required id="email">
-            <h2>Telefone:</h2>
+
+            <label>Telefone:</label>
             <input type="tel" required placeholder="(DDD)" id="telefone">
-            <input type="submit" value="ENVIAR" id="enviar">
+
+            <textarea name="feedback" cols="30" rows="10" placeholder="Me envie uma mensagem"></textarea>
+            <input type="hidden" name="ChaveDeAcesso" value="0f4854a3-dbb4-43ff-ad72-d01ff1e0ed26">
+
+            <button type="submit"></button>
+
         </form>
     </section>
     <script src="arquivos/formulário.js"></script>
